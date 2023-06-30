@@ -9,6 +9,6 @@ for (let teacherForm of teacherForms){
         let hours = teacherForm.hours.value
         let total = price
 
-        alert(total)
+        alert("O valor total do contrato é de R$" + total)
     })
 }
